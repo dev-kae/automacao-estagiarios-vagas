@@ -1,0 +1,1 @@
+Projeto para automatizar o processo de coleta de vagas para a comunidade.
