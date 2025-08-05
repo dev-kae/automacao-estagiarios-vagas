@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import List
+from typing import List, Optional
 from enum import Enum
 
 
@@ -18,6 +18,4 @@ class Vaga:
 class Site:
     url: str
     plataform: Plataform
-    vagas: list[Vaga] = []
-
-
+    vagas: Optional[list[Vaga]] = []
