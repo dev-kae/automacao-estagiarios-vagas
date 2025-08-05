@@ -21,4 +21,3 @@ class Site:
     vagas: list[Vaga] = []
 
 
-sites = []
