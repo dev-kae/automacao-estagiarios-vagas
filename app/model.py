@@ -12,7 +12,8 @@ class Plataform(Enum):
 class Vaga:
     name: str
     url: str
-    plataform: Plataform
+    workplaceType: str
+    plataform: str
 
 
 class Site:
